@@ -1,3 +1,21 @@
+proxy-providers:
+  WMSXWD:
+    type: http
+    path: .config/clash/proxy_provider/WMSXWD.yaml
+    url: https://dy.wmyun.men/link/K4ORkCSSDae9TDiz?clash=2
+    interval: 3600
+    health-check:
+      enable: true
+      url: https://cp.cloudflare.com/generate_204
+      interval: 3600
+port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: false
+mode: Rule
+log-level: silent
+external-controller: 0.0.0.0:9090
+secret: ""
 proxies:
 - name: AWS.HK |IEPL|
   type: ss
@@ -125,6 +143,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
@@ -142,6 +162,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: Domestic
   type: select
   proxies:
@@ -172,6 +194,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: Apple
   type: select
   proxies:
@@ -202,6 +226,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: Google FCM
   type: select
   proxies:
@@ -216,6 +242,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: Scholar
   type: select
   proxies:
@@ -230,6 +258,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: Bilibili
   type: select
   proxies:
@@ -244,6 +274,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: Bahamut
   type: select
   proxies:
@@ -258,6 +290,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: HBO Max
   type: select
   proxies:
@@ -272,6 +306,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: HBO Go
   type: select
   proxies:
@@ -286,6 +322,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: Pornhub
   type: select
   proxies:
@@ -300,6 +338,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: Netflix
   type: select
   proxies:
@@ -314,6 +354,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: Disney
   type: select
   proxies:
@@ -328,6 +370,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: Youtube
   type: select
   disable-udp: true
@@ -343,6 +387,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: Discovery Plus
   type: select
   proxies:
@@ -357,6 +403,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: DAZN
   type: select
   proxies:
@@ -371,6 +419,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: Spotify
   type: select
   proxies:
@@ -385,6 +435,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: Steam
   type: select
   proxies:
@@ -399,6 +451,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: miHoYo
   type: select
   proxies:
@@ -413,6 +467,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: AdBlock
   type: select
   proxies:
@@ -433,6 +489,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: Asian TV
   type: select
   proxies:
@@ -447,6 +505,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: Global TV
   type: select
   proxies:
@@ -461,6 +521,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: Speedtest
   type: select
   proxies:
@@ -475,6 +537,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: Telegram
   type: select
   proxies:
@@ -489,6 +553,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: Crypto
   type: select
   proxies:
@@ -503,6 +569,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: Discord
   type: select
   proxies:
@@ -517,6 +585,8 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
+  use:
+  - WMSXWD
 - name: PayPal
   type: select
   proxies:
@@ -531,13 +601,9 @@ proxy-groups:
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
   - Oracle.Dubai
-redir-port: 7892
-tproxy-port: 7895
-port: 7890
-socks-port: 7891
-mixed-port: 7893
-mode: rule
-allow-lan: true
+  use:
+  - WMSXWD
+
 rule-providers:
   Reject:
     type: http

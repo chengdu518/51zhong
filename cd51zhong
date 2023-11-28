@@ -45,7 +45,7 @@ proxies:
     enabled: false
 - name: Oracle.Seoul
   type: hysteria2
-  server: 193.123.232.184
+  server: 132.226.23.169
   port: 28518
   password: 51zhong
   up: '50'

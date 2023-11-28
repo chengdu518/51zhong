@@ -49,7 +49,7 @@ proxies:
   port: 28518
   password: 51zhong
   up: '50'
-  down: '1000'
+  down: '500'
   skip-cert-verify: true
   sni: www.bing.com
   alpn:

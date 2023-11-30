@@ -20,15 +20,18 @@ proxies:
   smux:
     enabled: false
 - name: AWS.HK |广港|
-  type: ss
-  server: 183.233.187.244
-  port: 25518
-  cipher: aes-256-gcm
+  type: hysteria2
+  server: 38.147.188.192
+  port: 28518
   password: 51zhong
-  udp: true
-  udp-over-tcp: false
+  up: '50'
+  down: '500'
+  skip-cert-verify: true
+  sni: www.bing.com
+  alpn:
+  - h3
+  obfs-password: 51zhong
   ip-version: dual
-  tfo: true
   smux:
     enabled: false
 - name: Oracle.Singapore |广港|

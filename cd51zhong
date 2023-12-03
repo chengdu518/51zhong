@@ -19,7 +19,7 @@ proxies:
   tfo: true
   smux:
     enabled: false
-- name: AWS.HK |广港|
+- name: MG.HK
   type: hysteria2
   server: 38.147.188.192
   port: 28518
@@ -129,7 +129,7 @@ proxy-groups:
   type: url-test
   proxies:
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -146,7 +146,7 @@ proxy-groups:
   - Auto - UrlTest
   - DIRECT
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -176,7 +176,7 @@ proxy-groups:
   - Proxy
   - DIRECT
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -190,7 +190,7 @@ proxy-groups:
   - DIRECT
   - Proxy
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -204,7 +204,7 @@ proxy-groups:
   - Proxy
   - DIRECT
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -218,7 +218,7 @@ proxy-groups:
   - DIRECT
   - Proxy
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -232,7 +232,7 @@ proxy-groups:
   - DIRECT
   - Proxy
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -246,7 +246,7 @@ proxy-groups:
   - Asian TV
   - DIRECT
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -260,7 +260,7 @@ proxy-groups:
   - Global TV
   - DIRECT
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -274,7 +274,7 @@ proxy-groups:
   - Global TV
   - DIRECT
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -288,7 +288,7 @@ proxy-groups:
   - Global TV
   - DIRECT
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -302,7 +302,7 @@ proxy-groups:
   - Global TV
   - DIRECT
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -316,7 +316,7 @@ proxy-groups:
   - Global TV
   - DIRECT
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -330,7 +330,7 @@ proxy-groups:
   - Global TV
   - DIRECT
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -345,7 +345,7 @@ proxy-groups:
   - Global TV
   - DIRECT
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -359,7 +359,7 @@ proxy-groups:
   - Global TV
   - DIRECT
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -373,7 +373,7 @@ proxy-groups:
   - Global TV
   - DIRECT
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -387,7 +387,7 @@ proxy-groups:
   - Global TV
   - DIRECT
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -401,7 +401,7 @@ proxy-groups:
   - DIRECT
   - Proxy
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -415,7 +415,7 @@ proxy-groups:
   - DIRECT
   - Proxy
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -435,7 +435,7 @@ proxy-groups:
   - DIRECT
   - Proxy
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -449,7 +449,7 @@ proxy-groups:
   - DIRECT
   - Proxy
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -463,7 +463,7 @@ proxy-groups:
   - Proxy
   - DIRECT
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -477,7 +477,7 @@ proxy-groups:
   - Proxy
   - DIRECT
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -491,7 +491,7 @@ proxy-groups:
   - Proxy
   - DIRECT
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -505,7 +505,7 @@ proxy-groups:
   - Proxy
   - DIRECT
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -519,7 +519,7 @@ proxy-groups:
   - Proxy
   - DIRECT
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|
@@ -533,7 +533,7 @@ proxy-groups:
   - DIRECT
   - Proxy
   - AWS.HK |IEPL|
-  - AWS.HK |广港|
+  - MG.HK
   - Oracle.Singapore |广港|
   - Oracle.Seoul
   - Oracle.Chuncheon |北京联通-首尔|

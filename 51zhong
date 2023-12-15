@@ -29,6 +29,21 @@ proxies:
   tfo: true
   smux:
     enabled: false
+- name: MG.HK
+  type: hysteria2
+  server: 38.147.188.192
+  port: 28518
+  password: 51zhong
+  up: '50'
+  down: '500'
+  skip-cert-verify: true
+  sni: www.bing.com
+  alpn:
+  - h3
+  obfs-password: 51zhong
+  ip-version: dual
+  smux:
+    enabled: false
 - name: AWS.HK |广港|
   type: ss
   server: 183.233.187.244
@@ -186,6 +201,7 @@ proxy-groups:
   - Proxy
   - DIRECT
   - AWS.HK |IEPL|
+  - MG.HK
   - AWS.HK |广港|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
@@ -282,6 +298,7 @@ proxy-groups:
   - Global TV
   - DIRECT
   - AWS.HK |IEPL|
+  - MG.HK
   - AWS.HK |广港|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
@@ -379,6 +396,7 @@ proxy-groups:
   - Global TV
   - DIRECT
   - AWS.HK |IEPL|
+  - MG.HK
   - AWS.HK |广港|
   - Oracle.Singapore |广港|
   - Oracle.Seoul

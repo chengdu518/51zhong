@@ -169,6 +169,7 @@ proxy-groups:
   - Auto - UrlTest
   - DIRECT
   - AWS.HK |IEPL|
+  - MG.HK
   - AWS.HK |广港|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
@@ -547,6 +548,7 @@ proxy-groups:
   - Proxy
   - DIRECT
   - AWS.HK |IEPL|
+  - MG.HK
   - AWS.HK |广港|
   - Oracle.Singapore |广港|
   - Oracle.Seoul

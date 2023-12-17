@@ -46,8 +46,8 @@ proxies:
     enabled: false
 - name: AWS.HK |广港|
   type: ss
-  server: 183.233.187.244
-  port: 25518
+  server: gzyda.073505.cn
+  port: 10518
   cipher: aes-256-gcm
   password: 51zhong
   udp: true

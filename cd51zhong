@@ -75,7 +75,7 @@ proxies:
     enabled: false
 - name: Oracle.Tokyo |沪日BGP|
   type: ss
-  server: 36.139.239.208
+  server: 112.29.200.80
   port: 56518
   cipher: aes-256-gcm
   password: 51zhong

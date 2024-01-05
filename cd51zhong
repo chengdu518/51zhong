@@ -99,7 +99,7 @@ proxies:
     enabled: false
 - name: Oracle.Sanjose |上海移动-日本|
   type: ss
-  server: shshyd.073505.cn
+  server: shyd.mmt.fosi.hk
   port: 10518
   cipher: aes-256-gcm
   password: 51zhong

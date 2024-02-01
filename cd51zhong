@@ -9,7 +9,7 @@ secret: ""
 proxies:
 - name: AWS.HK |IEPL|
   type: ss
-  server: 120.233.45.130
+  server: 120.232.198.129
   port: 25518
   cipher: aes-256-gcm
   password: 51zhong

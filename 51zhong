@@ -29,24 +29,9 @@ proxies:
   tfo: true
   smux:
     enabled: false
-- name: MG.HK
-  type: hysteria2
-  server: 38.147.188.192
-  port: 28518
-  password: 51zhong
-  up: '50'
-  down: '500'
-  skip-cert-verify: true
-  sni: www.bing.com
-  alpn:
-  - h3
-  obfs-password: 51zhong
-  ip-version: dual
-  smux:
-    enabled: false
 - name: AWS.HK |广港|
   type: ss
-  server: gzyda.073505.cn
+  server: dabiebieda.fosi.hk
   port: 10518
   cipher: aes-256-gcm
   password: 51zhong
@@ -97,7 +82,7 @@ proxies:
     enabled: false
 - name: Oracle.Tokyo |沪日BGP|
   type: ss
-  server: 112.29.200.80
+  server: 58.242.130.103
   port: 56518
   cipher: aes-256-gcm
   password: 51zhong
@@ -121,7 +106,7 @@ proxies:
     enabled: false
 - name: Oracle.Sanjose |上海移动-日本|
   type: ss
-  server: shshyd.073505.cn
+  server: shyd.mmt.fosi.hk
   port: 10518
   cipher: aes-256-gcm
   password: 51zhong
@@ -169,7 +154,6 @@ proxy-groups:
   - Auto - UrlTest
   - DIRECT
   - AWS.HK |IEPL|
-  - MG.HK
   - AWS.HK |广港|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
@@ -202,7 +186,6 @@ proxy-groups:
   - Proxy
   - DIRECT
   - AWS.HK |IEPL|
-  - MG.HK
   - AWS.HK |广港|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
@@ -299,7 +282,6 @@ proxy-groups:
   - Global TV
   - DIRECT
   - AWS.HK |IEPL|
-  - MG.HK
   - AWS.HK |广港|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
@@ -397,7 +379,6 @@ proxy-groups:
   - Global TV
   - DIRECT
   - AWS.HK |IEPL|
-  - MG.HK
   - AWS.HK |广港|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
@@ -548,7 +529,6 @@ proxy-groups:
   - Proxy
   - DIRECT
   - AWS.HK |IEPL|
-  - MG.HK
   - AWS.HK |广港|
   - Oracle.Singapore |广港|
   - Oracle.Seoul

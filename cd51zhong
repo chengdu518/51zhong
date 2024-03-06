@@ -58,14 +58,24 @@ proxies:
   ip-version: dual
   smux:
     enabled: false
-- name: Oracle.Chuncheon |北京联通-首尔|
-  type: ss
-  server: bjcu.073505.cn
-  port: 10518
-  cipher: aes-256-gcm
-  password: 51zhong
-  udp: true
-  udp-over-tcp: false
+- name: Oracle.Singapore.CFT
+  type: vmess
+  server: 13.227.255.45
+  port: 80
+  uuid: e831548b-3235-469c-8c78-3bf934d74366
+  alterId: 0
+  cipher: auto
+  udp: false
+  global-padding: false
+  authenticated-length: false
+  skip-cert-verify: true
+  tls: false
+  client-fingerprint: none
+  network: ws
+  ws-opts:
+    path: "/nf"
+    headers:
+      Host: d32vejs818zsua.cloudfront.net
   ip-version: dual
   tfo: true
   smux:
@@ -129,7 +139,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -146,7 +156,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -176,7 +186,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -190,7 +200,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -204,7 +214,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -218,7 +228,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -232,7 +242,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -246,7 +256,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -260,7 +270,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -274,7 +284,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -288,7 +298,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -302,7 +312,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -316,7 +326,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -330,7 +340,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -345,7 +355,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -359,7 +369,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -373,7 +383,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -387,7 +397,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -401,7 +411,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -415,7 +425,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -435,7 +445,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -449,7 +459,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -463,7 +473,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -477,7 +487,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -491,7 +501,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -505,7 +515,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -519,7 +529,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|
@@ -533,7 +543,7 @@ proxy-groups:
   - AWS.HK |广移-HGC|
   - Oracle.Singapore |广港|
   - Oracle.Seoul
-  - Oracle.Chuncheon |北京联通-首尔|
+  - Oracle.Singapore.CFT
   - Oracle.Tokyo |沪日BGP|
   - Oracle.Frankfurt |津德隧道|
   - Oracle.Sanjose |上海移动-日本|

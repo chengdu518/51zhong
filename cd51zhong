@@ -21,7 +21,7 @@ proxies:
     enabled: false
 - name: AWS.HK |广移-HGC|
   type: ss
-  server: gzdxc.kd69.vip
+  server: gya.kd69.vip
   port: 10518
   cipher: aes-256-gcm
   password: 51zhong

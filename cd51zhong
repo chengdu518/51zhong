@@ -21,7 +21,7 @@ proxies:
     enabled: false
 - name: AWS.HK |广移-HGC|
   type: ss
-  server: dabiebieda.fosi.hk
+  server: gzdxc.kd69.vip
   port: 10518
   cipher: aes-256-gcm
   password: 51zhong
@@ -106,7 +106,7 @@ proxies:
     enabled: false
 - name: Oracle.Sanjose |上海移动-日本|
   type: ss
-  server: shyd.mmt.fosi.hk
+  server: shyd.kd69.vip
   port: 10518
   cipher: aes-256-gcm
   password: 51zhong

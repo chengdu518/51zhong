@@ -33,7 +33,7 @@ proxies:
     enabled: false
 - name: Oracle.Singapore |广港|
   type: ss
-  server: 183.233.187.221
+  server: 183.236.51.45
   port: 55518
   cipher: aes-256-gcm
   password: 51zhong

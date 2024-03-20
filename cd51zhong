@@ -94,7 +94,7 @@ proxies:
     enabled: false
 - name: Oracle.Frankfurt |津德隧道|
   type: ss
-  server: bjcu.073505.cn
+  server: bjcu.kd69.vip
   port: 20518
   cipher: aes-256-gcm
   password: 51zhong
